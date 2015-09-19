@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7212611D1AFF3AEF001425DA /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7212611C1AFF3AEF001425DA /* Game.m */; };
+		721CC7ED1B27AF260089F5D2 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721CC7EC1B27AF260089F5D2 /* GameKit.framework */; };
+		721CC7F71B27BFB20089F5D2 /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 721CC7F61B27BFB20089F5D2 /* trophy.png */; };
+		72413BFD1B2ABA14006B8695 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72413BFC1B2ABA14006B8695 /* Default-568h@2x.png */; };
+		726915EE1AFF0ED800113437 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 726915ED1AFF0ED800113437 /* main.m */; };
+		726915F11AFF0ED800113437 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 726915F01AFF0ED800113437 /* AppDelegate.m */; };
+		726915F91AFF0ED800113437 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726915F81AFF0ED800113437 /* Images.xcassets */; };
+		726916231AFF10BE00113437 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726916221AFF10BE00113437 /* UIKit.framework */; };
+		726916251AFF10C600113437 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726916241AFF10C600113437 /* CoreGraphics.framework */; };
+		726916271AFF10D500113437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726916261AFF10D500113437 /* Foundation.framework */; };
+		7283DD981B2B6E5F005482F7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7283DD971B2B6E5F005482F7 /* CoreData.framework */; };
+		7283DD9A1B2CB19C005482F7 /* X2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7283DD991B2CB19C005482F7 /* X2.png */; };
+		7283DD9C1B2D4913005482F7 /* BackgrounNew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7283DD9B1B2D4913005482F7 /* BackgrounNew.jpg */; };
+		7283DD9E1B2D5120005482F7 /* ChickenFood.png in Resources */ = {isa = PBXBuildFile; fileRef = 7283DD9D1B2D5120005482F7 /* ChickenFood.png */; };
+		728DAB981B0A40D3003C096F /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 728DAB911B0A40D3003C096F /* pause.png */; };
+		728DAB991B0A40D3003C096F /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 728DAB921B0A40D3003C096F /* play.png */; };
+		728DAB9A1B0A40D3003C096F /* sc2.png in Resources */ = {isa = PBXBuildFile; fileRef = 728DAB931B0A40D3003C096F /* sc2.png */; };
+		728DAB9B1B0A40D3003C096F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 728DAB941B0A40D3003C096F /* background.jpg */; };
+		728DAB9C1B0A40D3003C096F /* bug.png in Resources */ = {isa = PBXBuildFile; fileRef = 728DAB951B0A40D3003C096F /* bug.png */; };
+		728DAB9D1B0A40D3003C096F /* liem.png in Resources */ = {isa = PBXBuildFile; fileRef = 728DAB961B0A40D3003C096F /* liem.png */; };
+		728DABA01B0A40E1003C096F /* Platform2.png in Resources */ = {isa = PBXBuildFile; fileRef = 728DAB9F1B0A40E1003C096F /* Platform2.png */; };
+		728DABA31B0A420B003C096F /* chickenSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 728DABA11B0A420B003C096F /* chickenSong.mp3 */; };
+		728DABA71B0A4247003C096F /* MainImport.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728DABA51B0A4247003C096F /* MainImport.storyboard */; };
+		72A9E2251B26CC1B0027BFFC /* background2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 72A9E2241B26CC1B0027BFFC /* background2.jpeg */; };
+		72A9E2291B26D0280027BFFC /* background3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 72A9E2281B26D0280027BFFC /* background3.jpeg */; };
+		72A9E22B1B26D29D0027BFFC /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A9E22A1B26D29D0027BFFC /* background1.png */; };
+		72AEB56D1B33ED0B007E3362 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AEB56C1B33ED0B007E3362 /* ViewController.m */; };
+		72AEB56F1B33F3CE007E3362 /* ch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72AEB56E1B33F3CE007E3362 /* ch.jpg */; };
+		72B121B51B257A5B003627C9 /* chicken5.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B121B31B257A5B003627C9 /* chicken5.png */; };
+		72B121B61B257A5B003627C9 /* chicken2.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B121B41B257A5B003627C9 /* chicken2.png */; };
+		72CCDAC11B488F6900A3F923 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CCDAC01B488F6900A3F923 /* CoreTelephony.framework */; };
+		72CCDAC31B488F7100A3F923 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CCDAC21B488F7100A3F923 /* SystemConfiguration.framework */; };
+		72CCDAC51B488F7900A3F923 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CCDAC41B488F7900A3F923 /* MobileCoreServices.framework */; };
+		72CCDAC71B488F8200A3F923 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CCDAC61B488F8200A3F923 /* CoreLocation.framework */; };
+		72F9E9F11B119EAD001BC823 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F9E9F01B119EAD001BC823 /* iAd.framework */; };
+		72FBA9691AFFCE4000F6C02E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FBA9631AFFCE4000F6C02E /* Bolts.framework */; };
+		72FBA96A1AFFCE4000F6C02E /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FBA9641AFFCE4000F6C02E /* FBAudienceNetwork.framework */; };
+		72FBA96B1AFFCE4000F6C02E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FBA9651AFFCE4000F6C02E /* FBSDKCoreKit.framework */; };
+		72FBA96C1AFFCE4000F6C02E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FBA9661AFFCE4000F6C02E /* FBSDKLoginKit.framework */; };
+		72FBA96D1AFFCE4000F6C02E /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FBA9671AFFCE4000F6C02E /* FBSDKMessengerShareKit.framework */; };
+		72FBA96E1AFFCE4000F6C02E /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FBA9681AFFCE4000F6C02E /* FBSDKShareKit.framework */; };
+		72FBA9701AFFFD3D00F6C02E /* Sodhi Designs-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 72FBA96F1AFFFD3D00F6C02E /* Sodhi Designs-logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		726916021AFF0ED800113437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 726915E01AFF0ED800113437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 726915E71AFF0ED800113437;
+			remoteInfo = "Chicken Hop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7212611B1AFF3AEF001425DA /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = SOURCE_ROOT; };
+		7212611C1AFF3AEF001425DA /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = SOURCE_ROOT; };
+		721CC7EC1B27AF260089F5D2 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		721CC7F61B27BFB20089F5D2 /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = SOURCE_ROOT; };
+		72413BFC1B2ABA14006B8695 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		726915E81AFF0ED800113437 /* Chicken Hop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chicken Hop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		726915EC1AFF0ED800113437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726915ED1AFF0ED800113437 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		726915EF1AFF0ED800113437 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		726915F01AFF0ED800113437 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		726915F21AFF0ED800113437 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		726915F81AFF0ED800113437 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		726916011AFF0ED800113437 /* Chicken HopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chicken HopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		726916221AFF10BE00113437 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		726916241AFF10C600113437 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		726916261AFF10D500113437 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7283DD971B2B6E5F005482F7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7283DD991B2CB19C005482F7 /* X2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X2.png; sourceTree = SOURCE_ROOT; };
+		7283DD9B1B2D4913005482F7 /* BackgrounNew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackgrounNew.jpg; sourceTree = SOURCE_ROOT; };
+		7283DD9D1B2D5120005482F7 /* ChickenFood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChickenFood.png; sourceTree = SOURCE_ROOT; };
+		728DAB911B0A40D3003C096F /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = SOURCE_ROOT; };
+		728DAB921B0A40D3003C096F /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = SOURCE_ROOT; };
+		728DAB931B0A40D3003C096F /* sc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc2.png; sourceTree = SOURCE_ROOT; };
+		728DAB941B0A40D3003C096F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = SOURCE_ROOT; };
+		728DAB951B0A40D3003C096F /* bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug.png; sourceTree = SOURCE_ROOT; };
+		728DAB961B0A40D3003C096F /* liem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liem.png; sourceTree = SOURCE_ROOT; };
+		728DAB9F1B0A40E1003C096F /* Platform2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Platform2.png; sourceTree = SOURCE_ROOT; };
+		728DABA11B0A420B003C096F /* chickenSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chickenSong.mp3; sourceTree = SOURCE_ROOT; };
+		728DABA61B0A4247003C096F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainImport.storyboard; sourceTree = "<group>"; };
+		72A9E2241B26CC1B0027BFFC /* background2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.jpeg; sourceTree = SOURCE_ROOT; };
+		72A9E2281B26D0280027BFFC /* background3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background3.jpeg; sourceTree = SOURCE_ROOT; };
+		72A9E22A1B26D29D0027BFFC /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = SOURCE_ROOT; };
+		72AEB56C1B33ED0B007E3362 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72AEB56E1B33F3CE007E3362 /* ch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ch.jpg; sourceTree = SOURCE_ROOT; };
+		72B121B31B257A5B003627C9 /* chicken5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken5.png; sourceTree = SOURCE_ROOT; };
+		72B121B41B257A5B003627C9 /* chicken2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken2.png; sourceTree = SOURCE_ROOT; };
+		72CCDAC01B488F6900A3F923 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		72CCDAC21B488F7100A3F923 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		72CCDAC41B488F7900A3F923 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		72CCDAC61B488F8200A3F923 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		72F9E9F01B119EAD001BC823 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		72FBA9631AFFCE4000F6C02E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		72FBA9641AFFCE4000F6C02E /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = ../FacebookSDK/FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		72FBA9651AFFCE4000F6C02E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		72FBA9661AFFCE4000F6C02E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		72FBA9671AFFCE4000F6C02E /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = ../FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		72FBA9681AFFCE4000F6C02E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		72FBA96F1AFFFD3D00F6C02E /* Sodhi Designs-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sodhi Designs-logo.png"; path = "../../sandbox2/src/main/webapp/resources/img/Sodhi Designs-logo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		726915E51AFF0ED800113437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CCDAC71B488F8200A3F923 /* CoreLocation.framework in Frameworks */,
+				72CCDAC51B488F7900A3F923 /* MobileCoreServices.framework in Frameworks */,
+				72CCDAC31B488F7100A3F923 /* SystemConfiguration.framework in Frameworks */,
+				72CCDAC11B488F6900A3F923 /* CoreTelephony.framework in Frameworks */,
+				7283DD981B2B6E5F005482F7 /* CoreData.framework in Frameworks */,
+				721CC7ED1B27AF260089F5D2 /* GameKit.framework in Frameworks */,
+				72F9E9F11B119EAD001BC823 /* iAd.framework in Frameworks */,
+				72FBA9691AFFCE4000F6C02E /* Bolts.framework in Frameworks */,
+				72FBA96A1AFFCE4000F6C02E /* FBAudienceNetwork.framework in Frameworks */,
+				72FBA96B1AFFCE4000F6C02E /* FBSDKCoreKit.framework in Frameworks */,
+				72FBA96C1AFFCE4000F6C02E /* FBSDKLoginKit.framework in Frameworks */,
+				72FBA96D1AFFCE4000F6C02E /* FBSDKMessengerShareKit.framework in Frameworks */,
+				72FBA96E1AFFCE4000F6C02E /* FBSDKShareKit.framework in Frameworks */,
+				726916271AFF10D500113437 /* Foundation.framework in Frameworks */,
+				726916251AFF10C600113437 /* CoreGraphics.framework in Frameworks */,
+				726916231AFF10BE00113437 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726915FE1AFF0ED800113437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		726915DF1AFF0ED800113437 = {
+			isa = PBXGroup;
+			children = (
+				72413BFC1B2ABA14006B8695 /* Default-568h@2x.png */,
+				726915EA1AFF0ED800113437 /* Chicken Hop */,
+				726915E91AFF0ED800113437 /* Products */,
+				72CCDAC61B488F8200A3F923 /* CoreLocation.framework */,
+				72CCDAC41B488F7900A3F923 /* MobileCoreServices.framework */,
+				72CCDAC21B488F7100A3F923 /* SystemConfiguration.framework */,
+				72CCDAC01B488F6900A3F923 /* CoreTelephony.framework */,
+				7283DD971B2B6E5F005482F7 /* CoreData.framework */,
+				721CC7EC1B27AF260089F5D2 /* GameKit.framework */,
+				72F9E9F01B119EAD001BC823 /* iAd.framework */,
+				72FBA9631AFFCE4000F6C02E /* Bolts.framework */,
+				72FBA9641AFFCE4000F6C02E /* FBAudienceNetwork.framework */,
+				72FBA9651AFFCE4000F6C02E /* FBSDKCoreKit.framework */,
+				72FBA9661AFFCE4000F6C02E /* FBSDKLoginKit.framework */,
+				72FBA9671AFFCE4000F6C02E /* FBSDKMessengerShareKit.framework */,
+				72FBA9681AFFCE4000F6C02E /* FBSDKShareKit.framework */,
+				726916261AFF10D500113437 /* Foundation.framework */,
+				726916241AFF10C600113437 /* CoreGraphics.framework */,
+				726916221AFF10BE00113437 /* UIKit.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		726915E91AFF0ED800113437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				726915E81AFF0ED800113437 /* Chicken Hop.app */,
+				726916011AFF0ED800113437 /* Chicken HopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		726915EA1AFF0ED800113437 /* Chicken Hop */ = {
+			isa = PBXGroup;
+			children = (
+				7212611B1AFF3AEF001425DA /* Game.h */,
+				7212611C1AFF3AEF001425DA /* Game.m */,
+				728DABA51B0A4247003C096F /* MainImport.storyboard */,
+				726915EF1AFF0ED800113437 /* AppDelegate.h */,
+				726915F01AFF0ED800113437 /* AppDelegate.m */,
+				726915F21AFF0ED800113437 /* ViewController.h */,
+				72AEB56C1B33ED0B007E3362 /* ViewController.m */,
+				726915F81AFF0ED800113437 /* Images.xcassets */,
+				726915EB1AFF0ED800113437 /* Supporting Files */,
+			);
+			path = "Chicken Hop";
+			sourceTree = "<group>";
+		};
+		726915EB1AFF0ED800113437 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72AEB56E1B33F3CE007E3362 /* ch.jpg */,
+				7283DD9D1B2D5120005482F7 /* ChickenFood.png */,
+				7283DD9B1B2D4913005482F7 /* BackgrounNew.jpg */,
+				7283DD991B2CB19C005482F7 /* X2.png */,
+				721CC7F61B27BFB20089F5D2 /* trophy.png */,
+				72A9E22A1B26D29D0027BFFC /* background1.png */,
+				72A9E2281B26D0280027BFFC /* background3.jpeg */,
+				72A9E2241B26CC1B0027BFFC /* background2.jpeg */,
+				72B121B31B257A5B003627C9 /* chicken5.png */,
+				72B121B41B257A5B003627C9 /* chicken2.png */,
+				728DAB961B0A40D3003C096F /* liem.png */,
+				728DABA11B0A420B003C096F /* chickenSong.mp3 */,
+				728DAB9F1B0A40E1003C096F /* Platform2.png */,
+				728DAB911B0A40D3003C096F /* pause.png */,
+				728DAB921B0A40D3003C096F /* play.png */,
+				728DAB931B0A40D3003C096F /* sc2.png */,
+				728DAB941B0A40D3003C096F /* background.jpg */,
+				728DAB951B0A40D3003C096F /* bug.png */,
+				72FBA96F1AFFFD3D00F6C02E /* Sodhi Designs-logo.png */,
+				726915EC1AFF0ED800113437 /* Info.plist */,
+				726915ED1AFF0ED800113437 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		726915E71AFF0ED800113437 /* Chicken Hop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7269160B1AFF0ED800113437 /* Build configuration list for PBXNativeTarget "Chicken Hop" */;
+			buildPhases = (
+				726915E41AFF0ED800113437 /* Sources */,
+				726915E51AFF0ED800113437 /* Frameworks */,
+				726915E61AFF0ED800113437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chicken Hop";
+			productName = "Chicken Hop";
+			productReference = 726915E81AFF0ED800113437 /* Chicken Hop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		726916001AFF0ED800113437 /* Chicken HopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7269160E1AFF0ED800113437 /* Build configuration list for PBXNativeTarget "Chicken HopTests" */;
+			buildPhases = (
+				726915FD1AFF0ED800113437 /* Sources */,
+				726915FE1AFF0ED800113437 /* Frameworks */,
+				726915FF1AFF0ED800113437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				726916031AFF0ED800113437 /* PBXTargetDependency */,
+			);
+			name = "Chicken HopTests";
+			productName = "Chicken HopTests";
+			productReference = 726916011AFF0ED800113437 /* Chicken HopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		726915E01AFF0ED800113437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Manvinder Sodhi";
+				TargetAttributes = {
+					726915E71AFF0ED800113437 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5CJ4GC88WR;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					726916001AFF0ED800113437 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 726915E71AFF0ED800113437;
+					};
+				};
+			};
+			buildConfigurationList = 726915E31AFF0ED800113437 /* Build configuration list for PBXProject "Chicken Hop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 726915DF1AFF0ED800113437;
+			productRefGroup = 726915E91AFF0ED800113437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				726915E71AFF0ED800113437 /* Chicken Hop */,
+				726916001AFF0ED800113437 /* Chicken HopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		726915E61AFF0ED800113437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A9E22B1B26D29D0027BFFC /* background1.png in Resources */,
+				728DAB991B0A40D3003C096F /* play.png in Resources */,
+				7283DD9E1B2D5120005482F7 /* ChickenFood.png in Resources */,
+				728DABA01B0A40E1003C096F /* Platform2.png in Resources */,
+				728DAB981B0A40D3003C096F /* pause.png in Resources */,
+				728DAB9D1B0A40D3003C096F /* liem.png in Resources */,
+				728DABA71B0A4247003C096F /* MainImport.storyboard in Resources */,
+				72FBA9701AFFFD3D00F6C02E /* Sodhi Designs-logo.png in Resources */,
+				72B121B51B257A5B003627C9 /* chicken5.png in Resources */,
+				72A9E2251B26CC1B0027BFFC /* background2.jpeg in Resources */,
+				721CC7F71B27BFB20089F5D2 /* trophy.png in Resources */,
+				7283DD9A1B2CB19C005482F7 /* X2.png in Resources */,
+				7283DD9C1B2D4913005482F7 /* BackgrounNew.jpg in Resources */,
+				72B121B61B257A5B003627C9 /* chicken2.png in Resources */,
+				72413BFD1B2ABA14006B8695 /* Default-568h@2x.png in Resources */,
+				728DAB9B1B0A40D3003C096F /* background.jpg in Resources */,
+				72AEB56F1B33F3CE007E3362 /* ch.jpg in Resources */,
+				728DAB9A1B0A40D3003C096F /* sc2.png in Resources */,
+				72A9E2291B26D0280027BFFC /* background3.jpeg in Resources */,
+				728DABA31B0A420B003C096F /* chickenSong.mp3 in Resources */,
+				728DAB9C1B0A40D3003C096F /* bug.png in Resources */,
+				726915F91AFF0ED800113437 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726915FF1AFF0ED800113437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		726915E41AFF0ED800113437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7212611D1AFF3AEF001425DA /* Game.m in Sources */,
+				726915F11AFF0ED800113437 /* AppDelegate.m in Sources */,
+				726915EE1AFF0ED800113437 /* main.m in Sources */,
+				72AEB56D1B33ED0B007E3362 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726915FD1AFF0ED800113437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		726916031AFF0ED800113437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 726915E71AFF0ED800113437 /* Chicken Hop */;
+			targetProxy = 726916021AFF0ED800113437 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		728DABA51B0A4247003C096F /* MainImport.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				728DABA61B0A4247003C096F /* Base */,
+			);
+			name = MainImport.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		726916091AFF0ED800113437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7269160A1AFF0ED800113437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7269160C1AFF0ED800113437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/manumac/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Chicken Hop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Manvinder-Sodhi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7269160D1AFF0ED800113437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/manumac/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Chicken Hop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Manvinder-Sodhi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7269160F1AFF0ED800113437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chicken HopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Manvinder-Sodhi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chicken Hop.app/Chicken Hop";
+			};
+			name = Debug;
+		};
+		726916101AFF0ED800113437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chicken HopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Manvinder-Sodhi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chicken Hop.app/Chicken Hop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		726915E31AFF0ED800113437 /* Build configuration list for PBXProject "Chicken Hop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726916091AFF0ED800113437 /* Debug */,
+				7269160A1AFF0ED800113437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7269160B1AFF0ED800113437 /* Build configuration list for PBXNativeTarget "Chicken Hop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7269160C1AFF0ED800113437 /* Debug */,
+				7269160D1AFF0ED800113437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7269160E1AFF0ED800113437 /* Build configuration list for PBXNativeTarget "Chicken HopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7269160F1AFF0ED800113437 /* Debug */,
+				726916101AFF0ED800113437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 726915E01AFF0ED800113437 /* Project object */;
+}
