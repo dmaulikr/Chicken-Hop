@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7210325F1BCC315500D2E6AA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7210325E1BCC315500D2E6AA /* Game.swift */; };
+		721032611BCC36A400D2E6AA /* MainSwift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721032601BCC36A400D2E6AA /* MainSwift.storyboard */; };
 		7212611D1AFF3AEF001425DA /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7212611C1AFF3AEF001425DA /* Game.m */; };
 		721CC7ED1B27AF260089F5D2 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721CC7EC1B27AF260089F5D2 /* GameKit.framework */; };
 		721CC7F71B27BFB20089F5D2 /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 721CC7F61B27BFB20089F5D2 /* trophy.png */; };
@@ -37,18 +39,7 @@
 		72AEB56F1B33F3CE007E3362 /* ch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72AEB56E1B33F3CE007E3362 /* ch.jpg */; };
 		72B121B51B257A5B003627C9 /* chicken5.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B121B31B257A5B003627C9 /* chicken5.png */; };
 		72B121B61B257A5B003627C9 /* chicken2.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B121B41B257A5B003627C9 /* chicken2.png */; };
-		72CCDAC11B488F6900A3F923 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CCDAC01B488F6900A3F923 /* CoreTelephony.framework */; };
-		72CCDAC31B488F7100A3F923 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CCDAC21B488F7100A3F923 /* SystemConfiguration.framework */; };
-		72CCDAC51B488F7900A3F923 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CCDAC41B488F7900A3F923 /* MobileCoreServices.framework */; };
-		72CCDAC71B488F8200A3F923 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CCDAC61B488F8200A3F923 /* CoreLocation.framework */; };
 		72F9E9F11B119EAD001BC823 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F9E9F01B119EAD001BC823 /* iAd.framework */; };
-		72FBA9691AFFCE4000F6C02E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FBA9631AFFCE4000F6C02E /* Bolts.framework */; };
-		72FBA96A1AFFCE4000F6C02E /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FBA9641AFFCE4000F6C02E /* FBAudienceNetwork.framework */; };
-		72FBA96B1AFFCE4000F6C02E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FBA9651AFFCE4000F6C02E /* FBSDKCoreKit.framework */; };
-		72FBA96C1AFFCE4000F6C02E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FBA9661AFFCE4000F6C02E /* FBSDKLoginKit.framework */; };
-		72FBA96D1AFFCE4000F6C02E /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FBA9671AFFCE4000F6C02E /* FBSDKMessengerShareKit.framework */; };
-		72FBA96E1AFFCE4000F6C02E /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FBA9681AFFCE4000F6C02E /* FBSDKShareKit.framework */; };
-		72FBA9701AFFFD3D00F6C02E /* Sodhi Designs-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 72FBA96F1AFFFD3D00F6C02E /* Sodhi Designs-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7210325E1BCC315500D2E6AA /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		721032601BCC36A400D2E6AA /* MainSwift.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainSwift.storyboard; sourceTree = "<group>"; };
 		7212611B1AFF3AEF001425DA /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = SOURCE_ROOT; };
 		7212611C1AFF3AEF001425DA /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = SOURCE_ROOT; };
 		721CC7EC1B27AF260089F5D2 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
@@ -98,18 +91,7 @@
 		72AEB56E1B33F3CE007E3362 /* ch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ch.jpg; sourceTree = SOURCE_ROOT; };
 		72B121B31B257A5B003627C9 /* chicken5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken5.png; sourceTree = SOURCE_ROOT; };
 		72B121B41B257A5B003627C9 /* chicken2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken2.png; sourceTree = SOURCE_ROOT; };
-		72CCDAC01B488F6900A3F923 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		72CCDAC21B488F7100A3F923 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		72CCDAC41B488F7900A3F923 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		72CCDAC61B488F8200A3F923 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		72F9E9F01B119EAD001BC823 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		72FBA9631AFFCE4000F6C02E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
-		72FBA9641AFFCE4000F6C02E /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = ../FacebookSDK/FBAudienceNetwork.framework; sourceTree = "<group>"; };
-		72FBA9651AFFCE4000F6C02E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		72FBA9661AFFCE4000F6C02E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		72FBA9671AFFCE4000F6C02E /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = ../FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
-		72FBA9681AFFCE4000F6C02E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
-		72FBA96F1AFFFD3D00F6C02E /* Sodhi Designs-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sodhi Designs-logo.png"; path = "../../sandbox2/src/main/webapp/resources/img/Sodhi Designs-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,19 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72CCDAC71B488F8200A3F923 /* CoreLocation.framework in Frameworks */,
-				72CCDAC51B488F7900A3F923 /* MobileCoreServices.framework in Frameworks */,
-				72CCDAC31B488F7100A3F923 /* SystemConfiguration.framework in Frameworks */,
-				72CCDAC11B488F6900A3F923 /* CoreTelephony.framework in Frameworks */,
 				7283DD981B2B6E5F005482F7 /* CoreData.framework in Frameworks */,
 				721CC7ED1B27AF260089F5D2 /* GameKit.framework in Frameworks */,
 				72F9E9F11B119EAD001BC823 /* iAd.framework in Frameworks */,
-				72FBA9691AFFCE4000F6C02E /* Bolts.framework in Frameworks */,
-				72FBA96A1AFFCE4000F6C02E /* FBAudienceNetwork.framework in Frameworks */,
-				72FBA96B1AFFCE4000F6C02E /* FBSDKCoreKit.framework in Frameworks */,
-				72FBA96C1AFFCE4000F6C02E /* FBSDKLoginKit.framework in Frameworks */,
-				72FBA96D1AFFCE4000F6C02E /* FBSDKMessengerShareKit.framework in Frameworks */,
-				72FBA96E1AFFCE4000F6C02E /* FBSDKShareKit.framework in Frameworks */,
 				726916271AFF10D500113437 /* Foundation.framework in Frameworks */,
 				726916251AFF10C600113437 /* CoreGraphics.framework in Frameworks */,
 				726916231AFF10BE00113437 /* UIKit.framework in Frameworks */,
@@ -152,19 +124,9 @@
 				72413BFC1B2ABA14006B8695 /* Default-568h@2x.png */,
 				726915EA1AFF0ED800113437 /* Chicken Hop */,
 				726915E91AFF0ED800113437 /* Products */,
-				72CCDAC61B488F8200A3F923 /* CoreLocation.framework */,
-				72CCDAC41B488F7900A3F923 /* MobileCoreServices.framework */,
-				72CCDAC21B488F7100A3F923 /* SystemConfiguration.framework */,
-				72CCDAC01B488F6900A3F923 /* CoreTelephony.framework */,
 				7283DD971B2B6E5F005482F7 /* CoreData.framework */,
 				721CC7EC1B27AF260089F5D2 /* GameKit.framework */,
 				72F9E9F01B119EAD001BC823 /* iAd.framework */,
-				72FBA9631AFFCE4000F6C02E /* Bolts.framework */,
-				72FBA9641AFFCE4000F6C02E /* FBAudienceNetwork.framework */,
-				72FBA9651AFFCE4000F6C02E /* FBSDKCoreKit.framework */,
-				72FBA9661AFFCE4000F6C02E /* FBSDKLoginKit.framework */,
-				72FBA9671AFFCE4000F6C02E /* FBSDKMessengerShareKit.framework */,
-				72FBA9681AFFCE4000F6C02E /* FBSDKShareKit.framework */,
 				726916261AFF10D500113437 /* Foundation.framework */,
 				726916241AFF10C600113437 /* CoreGraphics.framework */,
 				726916221AFF10BE00113437 /* UIKit.framework */,
@@ -183,9 +145,11 @@
 		726915EA1AFF0ED800113437 /* Chicken Hop */ = {
 			isa = PBXGroup;
 			children = (
+				7210325E1BCC315500D2E6AA /* Game.swift */,
 				7212611B1AFF3AEF001425DA /* Game.h */,
 				7212611C1AFF3AEF001425DA /* Game.m */,
 				728DABA51B0A4247003C096F /* MainImport.storyboard */,
+				721032601BCC36A400D2E6AA /* MainSwift.storyboard */,
 				726915EF1AFF0ED800113437 /* AppDelegate.h */,
 				726915F01AFF0ED800113437 /* AppDelegate.m */,
 				726915F21AFF0ED800113437 /* ViewController.h */,
@@ -217,7 +181,6 @@
 				728DAB931B0A40D3003C096F /* sc2.png */,
 				728DAB941B0A40D3003C096F /* background.jpg */,
 				728DAB951B0A40D3003C096F /* bug.png */,
-				72FBA96F1AFFFD3D00F6C02E /* Sodhi Designs-logo.png */,
 				726915EC1AFF0ED800113437 /* Info.plist */,
 				726915ED1AFF0ED800113437 /* main.m */,
 			);
@@ -268,6 +231,7 @@
 		726915E01AFF0ED800113437 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Manvinder Sodhi";
 				TargetAttributes = {
@@ -313,11 +277,11 @@
 				72A9E22B1B26D29D0027BFFC /* background1.png in Resources */,
 				728DAB991B0A40D3003C096F /* play.png in Resources */,
 				7283DD9E1B2D5120005482F7 /* ChickenFood.png in Resources */,
+				721032611BCC36A400D2E6AA /* MainSwift.storyboard in Resources */,
 				728DABA01B0A40E1003C096F /* Platform2.png in Resources */,
 				728DAB981B0A40D3003C096F /* pause.png in Resources */,
 				728DAB9D1B0A40D3003C096F /* liem.png in Resources */,
 				728DABA71B0A4247003C096F /* MainImport.storyboard in Resources */,
-				72FBA9701AFFFD3D00F6C02E /* Sodhi Designs-logo.png in Resources */,
 				72B121B51B257A5B003627C9 /* chicken5.png in Resources */,
 				72A9E2251B26CC1B0027BFFC /* background2.jpeg in Resources */,
 				721CC7F71B27BFB20089F5D2 /* trophy.png in Resources */,
@@ -350,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7212611D1AFF3AEF001425DA /* Game.m in Sources */,
+				7210325F1BCC315500D2E6AA /* Game.swift in Sources */,
 				726915F11AFF0ED800113437 /* AppDelegate.m in Sources */,
 				726915EE1AFF0ED800113437 /* main.m in Sources */,
 				72AEB56D1B33ED0B007E3362 /* ViewController.m in Sources */,
@@ -470,11 +435,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/manumac/Documents/FacebookSDK,
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Chicken Hop/Info.plist";
@@ -483,6 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Manvinder-Sodhi.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -491,11 +457,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/manumac/Documents/FacebookSDK,
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Chicken Hop/Info.plist";
