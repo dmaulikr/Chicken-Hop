@@ -227,11 +227,11 @@ class GameSwift: UIViewController{
     }
     
     func gameOver() {
-    
-        movement.invalidate()
         mainLabel.text = "Game Over"
         mainLabel.hidden = false
         Chicken.hidden = true
+        movement.invalidate()
+
     }
     
     func platformMovement() {
