@@ -143,7 +143,7 @@
         <!--Help-->
         <scene sceneID="0kY-9x-QV5">
             <objects>
-                <viewController title="Help" id="3FB-eO-Bq8" sceneMemberID="viewController">
+                <viewController title="Help" id="3FB-eO-Bq8" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ltL-0u-2Rv"/>
                         <viewControllerLayoutGuide type="bottom" id="6M7-Q1-iNa"/>
@@ -199,17 +199,43 @@
                                     <segue destination="AAE-Gj-C6X" kind="show" id="vgI-rf-LAf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENe-Rq-3Ip">
+                                <rect key="frame" x="171" y="406" width="259" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="259" id="Mq8-eP-0HF"/>
+                                </constraints>
+                                <state key="normal" title="Rate Chicken Hop on App Store"/>
+                                <connections>
+                                    <action selector="RateApp:" destination="3FB-eO-Bq8" eventType="touchUpInside" id="HDa-w3-wVF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eth-yU-mTK">
+                                <rect key="frame" x="230" y="451" width="140" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="mHS-Yk-F3Q"/>
+                                </constraints>
+                                <state key="normal" title="Contact Me"/>
+                                <connections>
+                                    <action selector="LinkToHelp:" destination="3FB-eO-Bq8" eventType="touchUpInside" id="6yD-yB-KTy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="1" green="0.4738496324" blue="0.077955392489999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Sxh-fy-tHg" firstAttribute="top" secondItem="Ss7-Nr-LHE" secondAttribute="bottom" constant="14" id="64A-ji-tTa"/>
+                            <constraint firstItem="eth-yU-mTK" firstAttribute="top" secondItem="ENe-Rq-3Ip" secondAttribute="bottom" constant="15" id="9J5-aB-nyw"/>
                             <constraint firstItem="ZCM-9R-wOt" firstAttribute="top" secondItem="Sxh-fy-tHg" secondAttribute="bottom" constant="8" symbolic="YES" id="AWk-oC-DdL"/>
                             <constraint firstItem="Ss7-Nr-LHE" firstAttribute="centerX" secondItem="UZb-BN-ZFO" secondAttribute="centerX" id="Aop-sQ-BMk"/>
                             <constraint firstItem="BJ0-wa-TZa" firstAttribute="leading" secondItem="UZb-BN-ZFO" secondAttribute="leadingMargin" id="CZZ-h1-YJ6"/>
                             <constraint firstItem="Sxh-fy-tHg" firstAttribute="leading" secondItem="Ss7-Nr-LHE" secondAttribute="leading" id="FeS-Q5-hLL"/>
                             <constraint firstItem="BJ0-wa-TZa" firstAttribute="top" secondItem="ltL-0u-2Rv" secondAttribute="bottom" constant="8" id="Hgo-yo-LMs"/>
+                            <constraint firstItem="ENe-Rq-3Ip" firstAttribute="centerX" secondItem="ZCM-9R-wOt" secondAttribute="centerX" id="I3v-iO-MyC"/>
+                            <constraint firstItem="ENe-Rq-3Ip" firstAttribute="top" secondItem="ZCM-9R-wOt" secondAttribute="bottom" constant="8" symbolic="YES" id="SaV-9b-6OO"/>
                             <constraint firstItem="6M7-Q1-iNa" firstAttribute="top" secondItem="ZCM-9R-wOt" secondAttribute="bottom" constant="202" id="ZPb-so-fxY"/>
+                            <constraint firstItem="eth-yU-mTK" firstAttribute="centerX" secondItem="ENe-Rq-3Ip" secondAttribute="centerX" id="d2v-VC-BvJ"/>
                             <constraint firstItem="6M7-Q1-iNa" firstAttribute="top" secondItem="BJ0-wa-TZa" secondAttribute="bottom" constant="527" id="mCU-aU-8J3"/>
                             <constraint firstItem="Ss7-Nr-LHE" firstAttribute="trailing" secondItem="Sxh-fy-tHg" secondAttribute="trailing" id="r8U-7u-duv"/>
                             <constraint firstItem="Ss7-Nr-LHE" firstAttribute="top" secondItem="ltL-0u-2Rv" secondAttribute="bottom" constant="77" id="tTK-EM-jom"/>
