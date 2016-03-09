@@ -8,4 +8,3 @@
 * Need to add the bug 
 * Need to add the chicken food
 * Need to fix the Game Over scene (Add the necessary labels, buttons, and leaderboard)
-* ![alt tag](https://github.com/mssodhi/Chicken-Hop/blob/master/BackgrounNew.jpg)
